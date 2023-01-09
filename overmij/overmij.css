@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+.imgOM{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+}
+html{
+    background-image: url(https://img.freepik.com/free-photo/blue-textured-brick-wall-background_53876-63585.jpg?w=2000);
+    box-sizing: border-box;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+body{
+    display: block;
+    width: 800px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.header a{
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+}
+header{
+    text-align: center;
+}
+.container{
+    display: flex;
+    width: 80%; 
+    height: 800px;
+    margin-left: 25px;
+    margin-left: 20px;
+}   
+.linksBlokOM{
+    width: 192px ;
+    height: 200px;
+    background-color:lightgray;
+    margin-top: 51px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+.linksvBlokOM a{
+    font-size: 20px;
+}
+.linkOM{
+    display: inline-block;
+    text-align: center;
+    border: solid 1px;
+    height: 15%;
+    background-color:#f29640;
+    width: 99%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.midden{
+    border: solid 1px black;
+    width: 70%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    background-image: url(https://dbdzm869oupei.cloudfront.net/img/sticker/preview/2916.png);
+    padding-left: 60px;
+    padding-right: 75px;
+    padding-top: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+li a{
+    color: rgb(56, 75, 153);
+    font-family: 'Syne Mono', monospace,sans-serif;
+    font-size: 13px;
+}
+li{
+    font-family: 'Syne Mono', monospace,sans-serif;
+    font-size: 13px;
+}
+h1{
+    font-size: 50px;
+    margin: 0px;
+    font-family: 'Bungee Shade',cursive, sans-serif;
+    color: white;
+}
+h2,h3,h4,h5{
+    font-size: large;
+    font-family: 'Righteous', cursive;
+
+}
+.werkplek{
+    display:inline-block;
+    border: 1px solid black;
+    margin-top: 15px;
+    background-color: #f29640;
+    border-radius: 20px;
+    padding: 3px;
+    width: 96%;
+    text-align: center;
+}
+.werkplek a{
+    color: rgb(56, 75, 153);
+    font-size: 20px;
+}
+.contact{
+    display:inline-block;
+    border: 1px solid black;
+    margin-top: 15px;
+    background-color: #f29640;
+    border-radius: 20px;
+    padding: 3px;
+    width: 96%;
+    text-align: center;
+}
+.contact a{
+    color: rgb(56, 75, 153);
+    font-size: 20px;
+}
+p{
+    font-family: 'Syne Mono', monospace,sans-serif;
+    font-size: 14px;
+}
+
