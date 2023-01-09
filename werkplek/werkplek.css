@@ -3,8 +3,7 @@
 html{
     background-image: url(https://img.freepik.com/free-photo/blue-textured-brick-wall-background_53876-63585.jpg?w=2000);
     box-sizing: border-box;
-    background-repeat:no-repeat;
-    background-size: cover;
+    background-repeat: repeat-y;
 
 }
 body{
