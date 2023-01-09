@@ -103,6 +103,10 @@ h2,h3,h4{
 
 }
 @media(max-width:500px){
+    .iframe {
+        width: 175px;
+        height: 400px;
+    }
     main{
         height: auto;
         width: auto;
@@ -111,7 +115,6 @@ h2,h3,h4{
         position: relative;
         overflow: hidden;
         width: 100%;
-        padding-top: 56.25%;
         height: 60%;
     }
     h1{

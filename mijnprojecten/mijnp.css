@@ -96,7 +96,27 @@ h2,h3,h4{
     h1{
         text-align: center;
         font-size:  large;
+    }  
+
+    .linkPJ {
+        display: flex;
+        height: 25px;
     }
+    .linkPJ > p {
+       margin: auto;
+    }
+    body{
+        width: auto;
+        height: auto;
+    }
+    p{
+        font-size: small;
+    }
+
+    .linksBlokPJ p{
+        font-size: 10px;
+    }
+
     .linksBlokPJ{
         width: 40%;
         height: 10%;
@@ -106,19 +126,5 @@ h2,h3,h4{
     .imgPJ{
         width: 100%;
         height: 100%;
-        
-    }
-    .linkPJ{
-        height: 25%;
-    }
-    body{
-        width: auto;
-        height: auto;
-    }
-    p{
-        font-size: small;
-    }
-    .linksBlokPJ a{
-        font-size: 14px;
     }
 }
