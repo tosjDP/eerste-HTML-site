@@ -122,4 +122,39 @@ p{
     font-family: 'Syne Mono', monospace,sans-serif;
     font-size: 14px;
 }
-
+@media(max-width:500px){
+    .midden{
+        width: 20%;
+        height: 60%;
+    }
+    h1{
+        text-align: center;
+        font-size:  large;
+    }
+    .linksBlokOM{
+        width: 40%;
+        height: 10%;
+        
+    }
+    .imgOM{
+        width: 100%;
+        height: 100%;
+    }
+    .linkOM{
+        height: auto;
+    }
+    body{
+        width: auto;
+        height: auto;
+    }
+    p{
+        font-size: 5px;
+    }
+    h2, h3 ,h4 ,h5{
+        font-size: small;
+        
+    }
+    .werkplek a{
+        font-size: 15px;
+    }
+}

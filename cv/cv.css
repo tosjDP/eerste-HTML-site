@@ -104,30 +104,33 @@ h2,h3,h4{
 }
 @media(max-width:500px){
     .midden{
-        width: 100%;
+        width: 50%;
         height: 60%;
     }
     h1{
-        margin-left: auto;
-        margin-right: auto;
+        text-align: center;
         font-size:  large;
     }
-    body{
-        height: 50%;
-        width: 50%;
-    
-    }
     .linksBlokCV{
-        width: 100%;
-        height: 20%;
+        width: 40%;
+        height: 10%;
         
     }
     .imgcv{
         width: 100%;
         height: 100%;
-
     }
-    .containerCV{
-        margin: 0;
+    .linkCV{
+        height: 30%;
     }
+    body{
+        width: auto;
+        height: auto;
+    }
+    .pdfframe{
+        width:initial;
+        height: 80%;
+    }
+    
+    
 }
