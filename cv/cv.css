@@ -103,8 +103,15 @@ h2,h3,h4{
 
 }
 @media(max-width:500px){
+    main{
+        height: auto;
+        width: auto;
+    }
     .midden{
-        width: 50%;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 56.25%;
         height: 60%;
     }
     h1{
@@ -114,6 +121,7 @@ h2,h3,h4{
     .linksBlokCV{
         width: 40%;
         height: 10%;
+        margin-top: 8%;
         
     }
     .imgcv{
@@ -127,10 +135,18 @@ h2,h3,h4{
         width: auto;
         height: auto;
     }
-    .pdfframe{
-        width:initial;
-        height: 80%;
+    .responsive-iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
     }
-    
+    .linksBlokCV a{
+        font-size: 15px;
+    }
+   
     
 }

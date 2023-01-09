@@ -85,6 +85,10 @@ h2,h3,h4{
 
 }
 @media(max-width:500px){
+    main{
+        height: auto;
+        width: auto;
+    }
     .midden{
         width: 20%;
         height: 60%;
@@ -96,14 +100,16 @@ h2,h3,h4{
     .linksBlokPJ{
         width: 40%;
         height: 10%;
+        margin-top: 8%;
         
     }
     .imgPJ{
         width: 100%;
         height: 100%;
+        
     }
     .linkPJ{
-        height: auto;
+        height: 25%;
     }
     body{
         width: auto;
@@ -111,5 +117,8 @@ h2,h3,h4{
     }
     p{
         font-size: small;
+    }
+    .linksBlokPJ a{
+        font-size: 14px;
     }
 }
