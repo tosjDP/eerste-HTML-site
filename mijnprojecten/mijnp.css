@@ -84,3 +84,41 @@ h2,h3,h4{
     font-size: large;
 
 }
+@media(max-width:500px){
+    main{
+        height: auto;
+        width: auto;
+    }
+    .midden{
+        width: 20%;
+        height: 60%;
+    }
+    h1{
+        text-align: center;
+        font-size:  large;
+    }
+    .linksBlokPJ{
+        width: 40%;
+        height: 10%;
+        margin-top: 8%;
+        
+    }
+    .imgPJ{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .linkPJ{
+        height: 25%;
+    }
+    body{
+        width: auto;
+        height: auto;
+    }
+    p{
+        font-size: small;
+    }
+    .linksBlokPJ a{
+        font-size: 14px;
+    }
+}

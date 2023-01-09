@@ -19,7 +19,7 @@ html{
     background-image: url(https://img.freepik.com/free-photo/blue-textured-brick-wall-background_53876-63585.jpg?w=2000);
     box-sizing: border-box;
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size:auto ;
 }
 .linkCV{
     text-align: center;
@@ -191,29 +191,75 @@ h1{
     color: white;
 }
 @media (max-width:500px) {
-    .containerCV,.containerOM,.containerPJ{
-        width: 40%;
-        height: 10%;
-        margin-left: auto;
-        margin-right: auto;
+    main{
+        height: auto;
+        width: auto;
+    }
+    .containerPJ{
+        width: 100%;
         margin-bottom: 10%;
-    }   
+        height: 150px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .containerOM{
+        width: 100%;
+        height: 10%;
+        margin-bottom: 10%;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+
+    }
+    .containerCV{
+        width: 100%;
+        height: 10%;
+        margin-bottom: 10%;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
     .imgOM{
         width: 100%;
-        height: 40%;
+        height: 80%;
     }
     .imgcv{
         width: 100%;
-        height: 40%;
-    }
-    .imgPJ{
-        width:100%;
         height: 100%;
     }
+    .imgPJ{
+        width: 100%;
+        height: 100%;   
+    }
     h1{
-        margin-left: auto;
-        margin-right: auto;
-        font-size: xx-large;
+        text-align: center;
+        font-size: x-large;
+    }
+    body{
+        width: auto;
+        height: auto;
+    }
+    .linksBlokOM p{
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+    .rechtsBlokPJ p{
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+    .linksBlokCV p{
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+    .linksBlokPJ > a{
+        font-size: 15px;
+    }
+    .rechtsBlokCV > a{
+        font-size: 15px;
+    }
+    .rechtsBlokOM > a{
+        font-size: 15px;
     }
 }
 
