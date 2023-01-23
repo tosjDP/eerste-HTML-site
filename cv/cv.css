@@ -35,7 +35,6 @@ header{
 .linksBlokCV{
     width: 192px ;
     height: 200px;
-    background-color:lightgray;
     margin-top: 51px;
     border-radius: 20px;
     margin-right: 5px;
@@ -64,11 +63,16 @@ header{
     margin-right: auto;
     margin-top: 8%;
     background-image: url(https://dbdzm869oupei.cloudfront.net/img/sticker/preview/2916.png);
+    background-size: cover;
     padding-left: 60px;
     padding-right: 75px;
     padding-top: 30px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
+}
+
+.midden > iframe,h2 {
+    margin-left: 25px;
 }
 h1{
     font-size: 50px;
@@ -76,14 +80,13 @@ h1{
     font-family: 'Bungee Shade',cursive, sans-serif;
     color: white;
 }
-.download a{
+.download {
     display:inline-block;
     border: 1px solid black;
     background-color: #f29640;
-    margin-top: 15px;
     border-radius: 20px;
-    padding: 3px;
-    width: 96%;
+    margin-top: 20px;
+    width: 100%;
     text-align: center;
     color: rgb(56, 75, 153);
     font-size: 20px;
@@ -103,7 +106,7 @@ h2,h3,h4{
 }
 @media(max-width:500px){
     .iframe {
-        width: 175px;
+        width: 250px;
         height: 400px;
     }
     main{
@@ -113,17 +116,24 @@ h2,h3,h4{
     .midden{
         position: relative;
         overflow: hidden;
-        width: 100%;
         height: 60%;
+    }
+    .containerCV {
+        display: flex;
+        flex-direction: column;
+
     }
     h1{
         text-align: center;
         font-size:  large;
     }
     .linksBlokCV{
-        width: 40%;
         height: 10%;
+        width: auto;
         margin-top: 8%;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: flex-start;
         
     }
     .imgcv{
@@ -148,6 +158,13 @@ h2,h3,h4{
     }
     .linksBlokCV a{
         font-size: 15px;
+    }
+
+    .download {
+        margin-left: 20px;
+        width: 100px;
+        height: 30px;
+        margin-top: 0;
     }
    
     

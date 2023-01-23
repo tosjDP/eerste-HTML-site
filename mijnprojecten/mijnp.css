@@ -59,11 +59,16 @@ header{
     margin-right: auto;
     margin-top: 8%;
     background-image: url(https://dbdzm869oupei.cloudfront.net/img/sticker/preview/2916.png);
+    background-size: cover;
     padding:10px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     padding-left: 60px;
     padding-right: 75px;
+}
+.midden > .text {
+    margin-left: 25px;
+    margin-top: 40px;
 }
 .linksBlokPJ p{
     margin: auto;
@@ -90,9 +95,13 @@ h2,h3,h4{
         height: auto;
         width: auto;
     }
+    .containerPJ {
+        display: flex;
+        flex-direction: column;
+    }
     .midden{
-        width: 20%;
         height: 60%;
+        margin-top: 40px;
     }
     h1{
         text-align: center;
@@ -119,7 +128,7 @@ h2,h3,h4{
     }
 
     .linksBlokPJ{
-        width: 40%;
+        width: 96px;
         height: 10%;
         margin-top: 8%;
         
